@@ -34,7 +34,6 @@ output:     true
 input:      10
 output:     0 1 1 2 3 5 8 13 21 34
 ```
-######################################
 ###Bài 7: Kiểm tra xem một số có phải là số nguyên tố không?
 ```
 input:      7
@@ -45,6 +44,7 @@ output:     true
 input:      100
 output:     2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
 ``` 
+- Lưu ý rằng để biết 1 số n có phải là prime hay không thì chỉ cần chia thử từ 2 đến Math.sqrt(n), nếu ko chia hết cho số nào thì là số nguyên tố 
 - Dùng cả 2 trường hợp gọi|không gọi method con
 ###Bài 9: đảo ngược vị trí của các phần tử trong mảng
 ```

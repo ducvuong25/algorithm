@@ -9,7 +9,7 @@ class A9_revertArrayTest {
     @ParameterizedTest
     @MethodSource("com.vuong.algorithm.factoryparam.FactoryParam#param7")
     void revertArrayTest(int[] intput, int[] expected) {
-        int[] actual = A9_revertArray.revertArray2(intput);
+        int[] actual = A9_revertArray.revertArray_redo(intput);
         Assertions.assertArrayEquals(expected, actual);
 
     }

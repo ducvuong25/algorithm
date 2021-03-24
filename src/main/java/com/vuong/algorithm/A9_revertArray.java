@@ -12,7 +12,7 @@ public class A9_revertArray {
         return arr;
     }
 
-    public static int[] revertArray2(int[] arr) {
+    public static int[] revertArray_redo(int[] arr) {
         for (int i = 0; i < arr.length/2; i++) {
             int temp = arr[i];
             arr[i] = arr[arr.length - 1 - i];

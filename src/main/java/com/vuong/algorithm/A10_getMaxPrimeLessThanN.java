@@ -6,19 +6,11 @@
 package com.vuong.algorithm;
 
 /**
- *
  * @author ducvuong25
  */
 public class A10_getMaxPrimeLessThanN {
 
-    public static int getMaxPrimeLessThanN(int n) {
-        for (int i = n - 1; i >= 2; i--) {
-            if (isPrime(i)) {
-                return i;
-            }
-        }
-        return -1; // tra ve -1 neu khong co so nguyen to nao nho hon so do (cac so <2) //convention
-    }
+
 
     public static boolean isPrime(int n) {
         if (n < 2) {
@@ -31,5 +23,22 @@ public class A10_getMaxPrimeLessThanN {
         }
         return true;
     }
+    public static int getMaxPrimeLessThanN(int n) {
+        for (int i = n - 1; i >= 2; i--) {
+            if (isPrime(i)) {
+                return i;
+            }
+        }
+        return -1; // tra ve -1 neu khong co so nguyen to nao nho hon so do (cac so <2) //convention
+    }
+    public static int getMaxPrimeLessThanN_redo(int n) {
+        for (int i = n - 1; i >= 2; i--) {
+            if (isPrime(i)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
 
 }

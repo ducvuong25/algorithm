@@ -94,4 +94,20 @@ public class FactoryParam {
                 Arguments.of(10000, 50005000)
         );
     }
+
+    /*param dung de test A10_getMaxPrimeLessThanN*/
+    public static Stream<Arguments> param9() {
+        return Stream.of(
+                Arguments.of(5, 3),
+                Arguments.of(100, 97),
+                Arguments.of(43, 41),
+                Arguments.of(29, 23),
+                Arguments.of(61, 59),
+                Arguments.of(3, 2),
+                Arguments.of(2, -1),
+                Arguments.of(1, -1),
+                Arguments.of(0, -1),
+                Arguments.of(-1, -1)
+        );
+    }
 }

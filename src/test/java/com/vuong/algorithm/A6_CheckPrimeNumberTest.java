@@ -7,13 +7,15 @@ import org.junit.jupiter.params.provider.ValueSource;
 public class A6_CheckPrimeNumberTest {
 
     @ParameterizedTest
-    @ValueSource(ints = {2,5,7,11})
+    @ValueSource(ints = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97})
     public void isPrime_Test01(int input) {
         Assertions.assertTrue(A6_CheckPrimeNumber.isPrime(input));
     }
+
     @ParameterizedTest
-    @ValueSource(ints = {-3,1,4,9})
+    @ValueSource(ints = {-3, 1, 4, 9})
     public void isPrime_Test02(int input) {
         Assertions.assertFalse(A6_CheckPrimeNumber.isPrime(input));
+
     }
 }
