@@ -4,7 +4,7 @@ package com.vuong.algorithm;
 
 
 
-public class A2_SumAnArray {
+public class A1_SumAnArray {
 
 
 

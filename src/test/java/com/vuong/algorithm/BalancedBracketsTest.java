@@ -1,5 +1,6 @@
 package com.vuong.algorithm;
 
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 
@@ -9,14 +10,7 @@ class BalancedBracketsTest {
 
     @ParameterizedTest
     @MethodSource("com.vuong.algorithm.factoryparam.FactoryParam#param5")
-    void isBalanceBrace(String StringInput, boolean expected) {
-        assertEquals(expected, BalancedBrackets.isBalanceBrace(StringInput));
-    }
-
-    @ParameterizedTest
-    @MethodSource("com.vuong.algorithm.factoryparam.FactoryParam#param5")
-    void balParenthesis(String StringInput, boolean expected) {
-        assertEquals(expected, BalancedBrackets.balParenthesis(StringInput));
-
+    void isBalanceBrace2(String StringInput, boolean expected) {
+        assertEquals(expected, BalancedBrackets.isBalanceBrace2(StringInput));
     }
 }
