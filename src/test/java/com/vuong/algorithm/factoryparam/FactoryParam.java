@@ -34,4 +34,20 @@ public class FactoryParam {
         );
 
     }
+    /*
+        param dung de test balance brace
+    */
+    public static Stream<Arguments> param5(){
+        return Stream.of(
+                Arguments.of("(){}[]({([])})", true),
+                Arguments.of("{{{}}}[](())", true),
+                Arguments.of("{{{}}}[]({)}", false),
+                Arguments.of("{{{}}}[])({}", false),
+                Arguments.of("{{{}}}[])({}abc", false),
+                Arguments.of("cam on anh(chi) da den, ma so cua toi la ((053) - 110 - 238", false),
+                Arguments.of("cam on anh(chi) da den, ma so cua toi la (053)) - 110 - 238", false),
+                Arguments.of("cam on anh(chi) da den, ma so cua toi la (053) - 110 - 238()", true)
+        );
+
+    }
 }
