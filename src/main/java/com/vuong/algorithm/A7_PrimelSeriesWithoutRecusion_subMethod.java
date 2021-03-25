@@ -4,7 +4,7 @@ package com.vuong.algorithm;
 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
 la nhung so nguyen to
  */
-public class A7_PrimelSeriesWithoutRecusionB {
+public class A7_PrimelSeriesWithoutRecusion_subMethod {
 
 
     public static void printNFirstPrime(int number) {

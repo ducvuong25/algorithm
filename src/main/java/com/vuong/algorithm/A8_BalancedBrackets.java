@@ -4,7 +4,7 @@ package com.vuong.algorithm;
 
 import java.util.Stack;
 
-public class BalancedBrackets {
+public class A8_BalancedBrackets {
 
     public static boolean isBalanceBrace2(String string) {
         // khoi tao 1 stack<Character> trong

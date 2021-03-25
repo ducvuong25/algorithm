@@ -65,6 +65,52 @@ output:     2
 input: "({[]})"
 ouput: true
 ```
+### Bài 12: Tính giai thừa của một số
+```
+input: 5
+ouput: 120
+```
+- Không sử dụng đệ quy vào có sử dụng đệ quy
+- Chú ý rằng giai thừa của 1 và 0 đều bằng 1
+
+### Bài 13: In ra dãy n số fibonanci đầu tiên
+```
+input: 1
+ouput: 0
+
+input: 2
+ouput: 0 1
+
+input: 3
+ouput: 0 1 1
+
+input: 10
+ouput: 0 1 1 2 3 5 8 13 21 34
+```
+- Không sử dụng đệ quy vào có sử dụng đệ quy
+
+### Bài 14: Một công ty quy định nếu nhân viên đi muộn thì sẽ bị phạt với số tiền là là ``n * m``, với n là một số tiền cố định, m là số lần vi phạm.
+####Yêu cầu tính tổng số tiền phạt sau lần phạt thứ n.
+- Dùng cả đệ quy và không đệ quy
+- ví dụ với n = 2k;
+```
+| lần phạt | tiền phạt mỗi lần | tổng tiền phạt lần phạt thứ n |
+|----------|-------------------|-------------------------------|
+| lần 1    | 2k                | 2k                            |
+| lần 2    | 4k                | 6k                            |
+| lần 3    | 6k                | 12k                           |
+| lần 4    | 8k                | 20k                           |
+| lần 5    | 10k               | 30k                           |
+
+```    
+```   
+input: 4 (lần phạt thứ 4)
+ouput: 20k
+
+input: 5 (lần phạt thứ 5)
+ouput:  30k
+
+```    
 
 
 

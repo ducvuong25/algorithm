@@ -9,7 +9,7 @@ so nguyen to la so chi chet het cho 1 va chinh no
 moi so chan deu khong phai la so nguyen tu tru so 2
 
  */
-public class A7_PrimelSeriesWithoutRecusion {
+public class A7_PrimelSeriesWithoutRecusion_nonSubMethod {
 
 
     static void printSeriesPrime(int N) {

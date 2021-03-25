@@ -110,4 +110,15 @@ public class FactoryParam {
                 Arguments.of(-1, -1)
         );
     }
+
+    /*param dung de test A11_FactorialTest*/
+    public static Stream<Arguments> param10() {
+        return Stream.of(
+                Arguments.of(0, 1),
+                Arguments.of(1, 1),
+                Arguments.of(5, 120),
+                Arguments.of(7, 5040),
+                Arguments.of(10, 3628800)
+        );
+    }
 }

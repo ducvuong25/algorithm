@@ -9,7 +9,7 @@ class A4_1_CheckDupplicateTest {
     @ParameterizedTest
     @MethodSource("com.vuong.algorithm.factoryparam.FactoryParam#param6")
     void checkDupplicate(int[] input, boolean expected) {
-        boolean actual = A4_1_CheckDupplicate.checkDuplicate2(input);
+        boolean actual = A4_1_CheckDupplicate.checkDuplicate_redo(input);
         Assertions.assertEquals(expected, actual);
     }
 }

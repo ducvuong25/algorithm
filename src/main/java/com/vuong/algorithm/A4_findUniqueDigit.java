@@ -11,7 +11,6 @@ package com.vuong.algorithm;
 
 public class A4_findUniqueDigit {
 
-
     public static void getUniqueNumbers(int[] arr) {
         boolean unique;
         for (int i = 0; i < arr.length; i++) {

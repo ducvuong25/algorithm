@@ -14,7 +14,7 @@ public class A4_1_CheckDupplicate {
         return true;
     }
 
-    public static boolean checkDuplicate2(int[] arr) {
+    public static boolean checkDuplicate_redo(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
                 if (i != j && arr[i] == arr[j]) {

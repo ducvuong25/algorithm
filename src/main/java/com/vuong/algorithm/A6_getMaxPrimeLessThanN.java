@@ -8,7 +8,7 @@ package com.vuong.algorithm;
 /**
  * @author ducvuong25
  */
-public class A10_getMaxPrimeLessThanN {
+public class A6_getMaxPrimeLessThanN {
 
 
 
