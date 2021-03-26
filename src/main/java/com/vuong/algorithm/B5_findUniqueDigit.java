@@ -9,7 +9,7 @@ package com.vuong.algorithm;
 
 
 
-public class A4_findUniqueDigit {
+public class B5_findUniqueDigit {
 
     public static void getUniqueNumbers(int[] arr) {
         boolean unique;

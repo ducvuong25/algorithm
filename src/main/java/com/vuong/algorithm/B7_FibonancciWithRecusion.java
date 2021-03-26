@@ -6,7 +6,7 @@ input:
 
 package com.vuong.algorithm;
 
-public class A5_FibonancciWithRecusion {
+public class B7_FibonancciWithRecusion {
 
     public static void fibonacciSeries(int number) {
         for (int i = 1; i <= number; i++) {

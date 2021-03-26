@@ -1,6 +1,6 @@
 package com.vuong.algorithm;
 
-public class A11_Factorial {
+public class B13_Factorial {
 
     public static int getFactorialWithfor(int n) {
         int f = n;

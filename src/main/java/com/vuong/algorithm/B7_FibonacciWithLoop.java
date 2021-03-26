@@ -5,7 +5,7 @@ ko su dung de quy
 input: int  vi du 10;
 output: liet ke day n so fibonacci dau tien (0 1 1 2 3 5 8 13 21 34)
  */
-public class A5_FibonacciWithLoop {
+public class B7_FibonacciWithLoop {
 
     public static void getFibonacci_swith(int n) {
         int first = 0;

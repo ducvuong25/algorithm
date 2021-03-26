@@ -1,7 +1,7 @@
 package com.vuong.algorithm;
 
 
-public class A1_SumAnNumber {
+public class B1_SumAnNumber {
     // input: int   (8676474)
     // output: int; (42)
     public static int getTotal(int number) {

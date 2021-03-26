@@ -29,51 +29,8 @@ output:     {2,5}, hoặc in ra 2,5
 input:      {1,2,3,1,4,5,3,4}
 output:     true
 ```
-### Bài 6: in ra dãy n số fibonacci đầu tiên
-```
-input:      10
-output:     0 1 1 2 3 5 8 13 21 34
-```
-### Bài 7: Kiểm tra xem một số có phải là số nguyên tố không?
-```
-input:      7
-output:     true
-```
-### Bài 8: In ra các số nguyên tố từ 1 cho đến n (kể cả n nếu n là cũng là số nguyên tố) 
-```
-input:      100
-output:     2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
-``` 
-- Lưu ý rằng để biết 1 số n có phải là prime hay không thì chỉ cần chia thử từ 2 đến Math.sqrt(n), nếu ko chia hết cho số nào thì là số nguyên tố 
-- Dùng cả 2 trường hợp gọi|không gọi method con
-### Bài 9: đảo ngược vị trí của các phần tử trong mảng
-```
-input:      {1,2,3,4,5}
-output:     {5,4,3,2,1}
-```
-### Bài 10: Cho số N, in ra  số nguyên tố lớn nhất nhưng nhỏ hơn N
-```
-input:      100
-output:     97
-
-input:      3
-output:     2
-```
-
-### Bài 11: Kiểm tra xem một chuỗi các brace có phải là balance hay không?
-```
-input: "({[]})"
-ouput: true
-```
-### Bài 12: Tính giai thừa của một số
-```
-input: 5
-ouput: 120
-```
-- Không sử dụng đệ quy vào có sử dụng đệ quy
-- Chú ý rằng giai thừa của 1 và 0 đều bằng 1
-
-### Bài 13: In ra dãy n số fibonanci đầu tiên
+### Bài 7: in ra dãy n số fibonacci đầu tiên
+- Dùng cả 2 phương pháp loop và recusion
 ```
 input: 1
 ouput: 0
@@ -87,11 +44,50 @@ ouput: 0 1 1
 input: 10
 ouput: 0 1 1 2 3 5 8 13 21 34
 ```
-- Không sử dụng đệ quy vào có sử dụng đệ quy
+
+### Bài 8: Kiểm tra xem một số có phải là số nguyên tố không?
+```
+input:      7
+output:     true
+```
+### Bài 9: In ra các số nguyên tố từ 1 cho đến n (kể cả n nếu n là cũng là số nguyên tố) 
+```
+input:      100
+output:     2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+``` 
+- Lưu ý rằng để biết 1 số n có phải là prime hay không thì chỉ cần chia thử từ 2 đến Math.sqrt(n), nếu ko chia hết cho số nào thì là số nguyên tố 
+- Dùng cả 2 trường hợp gọi|không gọi method con
+### Bài 10: đảo ngược vị trí của các phần tử trong mảng
+```
+input:      {1,2,3,4,5}
+output:     {5,4,3,2,1}
+```
+### Bài 11: Cho số N, in ra  số nguyên tố lớn nhất nhưng nhỏ hơn N
+```
+input:      100
+output:     97
+
+input:      3
+output:     2
+```
+
+### Bài 12: Kiểm tra xem một chuỗi các brace có phải là balance hay không?
+```
+input: "({[]})"
+ouput: true
+```
+### Bài 13: Tính giai thừa của một số
+```
+input: 5
+ouput: 120
+```
+- Dùng cả 2 phương pháp loop và recusion
+- Chú ý rằng giai thừa của 1 và 0 đều bằng 1
+
 
 ### Bài 14: Một công ty quy định nếu nhân viên đi muộn thì sẽ bị phạt với số tiền là là ``n * m``, với n là một số tiền cố định, m là số lần vi phạm.
-####Yêu cầu tính tổng số tiền phạt sau lần phạt thứ n.
-- Dùng cả đệ quy và không đệ quy
+#### Yêu cầu tính tổng số tiền phạt sau lần phạt thứ n.
+- Dùng cả 2 phương pháp loop và recusion
 - ví dụ với n = 2k;
 ```
 | lần phạt | tiền phạt mỗi lần | tổng tiền phạt lần phạt thứ n |
@@ -112,6 +108,15 @@ ouput:  30k
 
 ```    
 
+
+### Bài 15: Cho một mảng int[][], tính tổng các phần tử trong mảng đó.
+```
+input:      {{1,2}, {3,4}, {5,6}}
+output:     21
+
+input:      {{5, 7, 3}, {1, 2, 4}};
+output:     22
+```
 
 
 

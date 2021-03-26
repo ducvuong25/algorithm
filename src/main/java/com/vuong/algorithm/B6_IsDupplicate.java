@@ -1,7 +1,7 @@
 package com.vuong.algorithm;
 
 
-public class A4_1_CheckDupplicate {
+public class B6_IsDupplicate {
 
     public static boolean checkDuplicate(int[] arr) {
         for (int i = 0; i < arr.length; i++) {

@@ -1,6 +1,6 @@
 package com.vuong.algorithm;
 
-public class A9_revertArray {
+public class B10_revertArray {
 
 
     public static int[] revertArray(int[] arr) {

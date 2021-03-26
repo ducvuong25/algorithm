@@ -6,7 +6,7 @@ input: 97
 ouput: true;
 
  */
-public class A6_CheckPrimeNumber {
+public class B8_IsPrimeNumber {
     public static boolean isPrime(int number) {
         if (number < 2) {
             return false;

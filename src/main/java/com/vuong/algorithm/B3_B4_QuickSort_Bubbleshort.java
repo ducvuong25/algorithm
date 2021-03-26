@@ -5,7 +5,7 @@ ouput [9,8,7,3,2]
  */
 package com.vuong.algorithm;
 
-public class B_QuickSort_Bubbleshort {
+public class B3_B4_QuickSort_Bubbleshort {
 
 
     // day khong phai la thuat toan sap xep noi bot

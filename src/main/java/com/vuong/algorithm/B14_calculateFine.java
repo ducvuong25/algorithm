@@ -1,6 +1,6 @@
 package com.vuong.algorithm;
 
-public class A12_tinhTienPhatHieu {
+public class B14_calculateFine {
 
     public static int tinhPhatWithFor(int soLanPhat, int mucPhat) {
         int total = 0;

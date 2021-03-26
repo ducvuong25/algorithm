@@ -10,6 +10,6 @@ class A8BalancedBracketsTest {
     @ParameterizedTest
     @MethodSource("com.vuong.algorithm.factoryparam.FactoryParam#param5")
     void isBalanceBrace2(String StringInput, boolean expected) {
-        assertEquals(expected, A8_BalancedBrackets.isBalanceBrace2(StringInput));
+        assertEquals(expected, B12_IsBalancedBrackets.isBalanceBrace2(StringInput));
     }
 }
