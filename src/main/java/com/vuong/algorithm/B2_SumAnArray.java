@@ -2,11 +2,7 @@ package com.vuong.algorithm;
 //input array {1,2,3,4,5}
 //output int 15;
 
-
-
 public class B2_SumAnArray {
-
-
 
     public static int getTotal(int[] arr) {
         int total = 0;
@@ -25,6 +21,5 @@ public class B2_SumAnArray {
             }
         }
         return total;
-
     }
 }
