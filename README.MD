@@ -109,13 +109,11 @@ ouput:  30k
 ```    
 
 
-### Bài 15: Cho một mảng int[][], tính tổng các phần tử trong mảng đó.
+### Bài 15: Cho một mảng int[][], tính tổng các phần tử chia hết cho 5 trong mảng đó.
 ```
-input:      {{1,2}, {3,4}, {5,6}}
-output:     21
+input:      {{10, 4, 8, 2}, {5, 6, 4, 9}, {20, 3, 8, 1}}
+output:     35
 
-input:      {{5, 7, 3}, {1, 2, 4}};
-output:     22
 ```
 
 
