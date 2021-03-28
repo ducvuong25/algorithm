@@ -4,7 +4,7 @@
 input:      8676474
 output:     42
 ```
-### Bài 2: tính tổng các số trong một mảng (dễ hơn)
+### Bài 2: Tính tổng các số trong một mảng (dễ hơn)
 ```
 input:      {1,2,3,4,5}
 output:     15
@@ -29,7 +29,7 @@ output:     {2,5}, hoặc in ra 2,5
 input:      {1,2,3,1,4,5,3,4}
 output:     true
 ```
-### Bài 7: in ra dãy n số fibonacci đầu tiên
+### Bài 7: In ra dãy n số fibonacci đầu tiên
 - Dùng cả 2 phương pháp loop và recusion
 ```
 input: 1
@@ -115,11 +115,6 @@ input:      {{10, 4, 8, 2}, {5, 6, 4, 9}, {20, 3, 8, 1}}
 output:     35
 
 ```
-
-
-
-
-
 
 
 
